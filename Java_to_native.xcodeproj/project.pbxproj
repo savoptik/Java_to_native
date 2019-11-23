@@ -6,11 +6,52 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXFileReference section */
+		FE9EC9D9238965F900FE24A8 /* Compile.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = Compile.sh; sourceTree = "<group>"; };
+		FE9EC9DD238965F900FE24A8 /* UserData.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = UserData.java; sourceTree = "<group>"; };
+		FE9EC9DE2389661200FE24A8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		FE9EC9CD2389649D00FE24A8 = {
 			isa = PBXGroup;
 			children = (
+				FE9EC9DE2389661200FE24A8 /* README.md */,
+				FE9EC9D8238965F900FE24A8 /* Java_to_native */,
 			);
+			sourceTree = "<group>";
+		};
+		FE9EC9D8238965F900FE24A8 /* Java_to_native */ = {
+			isa = PBXGroup;
+			children = (
+				FE9EC9D9238965F900FE24A8 /* Compile.sh */,
+				FE9EC9DA238965F900FE24A8 /* com */,
+			);
+			path = Java_to_native;
+			sourceTree = "<group>";
+		};
+		FE9EC9DA238965F900FE24A8 /* com */ = {
+			isa = PBXGroup;
+			children = (
+				FE9EC9DB238965F900FE24A8 /* baeldung */,
+			);
+			path = com;
+			sourceTree = "<group>";
+		};
+		FE9EC9DB238965F900FE24A8 /* baeldung */ = {
+			isa = PBXGroup;
+			children = (
+				FE9EC9DC238965F900FE24A8 /* jni */,
+			);
+			path = baeldung;
+			sourceTree = "<group>";
+		};
+		FE9EC9DC238965F900FE24A8 /* jni */ = {
+			isa = PBXGroup;
+			children = (
+				FE9EC9DD238965F900FE24A8 /* UserData.java */,
+			);
+			path = jni;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
